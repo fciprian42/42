@@ -1,2 +1,2 @@
 # 42
-42 school projects C
+Tous mes projets C à l'école 42.
