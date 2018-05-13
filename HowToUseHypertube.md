@@ -26,10 +26,11 @@ Démarrons la base de donnée, rendez vous dans votre dossier mongodb téléchar
 
 `cd bin && ./mongod --dbpath ~/data/db`
 
-Il ne manque plus qu'a importer les fichiers `series.json` et movies.json` qui se trouvent dans <strong>api/db</strong>, Ouvrez
+Il ne manque plus qu'a importer les fichiers `series.json` et `movies.json` qui se trouvent dans <strong>api/db</strong>, Ouvrez
 un autre terminal, puis rendez vous dansvotre  dossier mongodb téléchargé puis exécuter la commande suivante
 
 `./mongoimport --db hypertube --collection movies --file PATH_MOVIES.JSON`
+
 `./mongoimport --db hypertube --collection series --file PATH_SERIES.JSON`
 
 `./mongo > use hypertube`
