@@ -1,0 +1,22 @@
+.nav-bar {
+    background-color: grey;
+    padding: 10px;
+}
+
+.nav-bar > a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar > a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    padding: 15px;
+}
+
+.container li
+{
+    padding: 10px;
+}
